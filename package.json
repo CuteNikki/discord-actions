@@ -1,0 +1,30 @@
+{
+  "name": "discord-actions",
+  "version": "1.0.1",
+  "main": "index.js",
+  "types": "./typings/index.d.ts",
+  "author": "Verschlafene",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verschlafene/discord-actions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Verschlafene/discord-actions/issues"
+  },
+  "homepage": "https://github.com/Verschlafene/discord-actions#readme",
+  "keywords": [
+    "anime",
+    "discord",
+    "discord.js",
+    "actions",
+    "reactions",
+    "hug",
+    "cuddle",
+    "kiss",
+    "bonk",
+    "anime",
+    "gif",
+    "api"
+  ]
+}
