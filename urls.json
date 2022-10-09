@@ -1,6 +1,59 @@
 {
   "sfw": {
-    "cuddle": "https://api.waifu.pics/sfw/cuddle"
+    "cuddle": "https://waifu.pics/api/sfw/cuddle",
+    "hug": "https://waifu.pics/api/sfw/hug",
+    "kiss": "https://waifu.pics/api/sfw/kiss",
+    "pat": "https://waifu.pics/api/sfw/pat",
+    "poke": "https://waifu.pics/api/sfw/poke",
+    "kick": "https://waifu.pics/api/sfw/kick",
+    "kill": "https://waifu.pics/api/sfw/kill",
+    "slap": "https://waifu.pics/api/sfw/slap",
+    "glomp": "https://waifu.pics/api/sfw/glomp",
+    "bite": "https://waifu.pics/api/sfw/bite",
+    "handhold": "https://waifu.pics/api/sfw/handhold",
+    "highfive": "https://waifu.pics/api/sfw/highfive",
+    "yeet": "https://waifu.pics/api/sfw/yeet",
+    "bonk": "https://waifu.pics/api/sfw/bonk",
+    "lick": "https://waifu.pics/api/sfw/lick",
+    "bully": "https://waifu.pics/api/sfw/bully",
+    "tickle": "https://nekos.life/api/v2/img/tickle",
+    "feed": "https://nekos.life/api/v2/img/feed",
+
+    "nom": "https://waifu.pics/api/sfw/nom",
+    "wave": "https://waifu.pics/api/sfw/wave",
+    "wink": "https://waifu.pics/api/sfw/wink",
+    "blush": "https://waifu.pics/api/sfw/blush",
+    "smile": "https://waifu.pics/api/sfw/smile",
+    "happy": "https://waifu.pics/api/sfw/happy",
+    "smug": "https://waifu.pics/api/sfw/smug",
+    "cringe": "https://waifu.pics/api/sfw/cringe",
+    "dance": "https://waifu.pics/api/sfw/dance",
+    "cry": "https://waifu.pics/api/sfw/cry",
+
+    "meow": "https://nekos.life/api/v2/img/meow",
+    "woof": "https://nekos.life/api/v2/img/woof",
+    "goose": "https://nekos.life/api/v2/img/goose",
+    "why": "https://nekos.life/api/v2/why",
+    "cat": "https://nekos.life/api/v2/cat",
+    "owoify": "https://nekos.life/api/v2/owoify",
+    "eightball": "https://nekos.life/api/v2/8ball",
+    "fact": "https://nekos.life/api/v2/fact",
+    "spoiler": "https://nekos.life/api/v2/spoiler",
+    "gecg": "https://nekos.life/api/v2/img/gecg",
+    "avatar": "https://nekos.life/api/v2/img/avatar",
+
+    "foxgirl": "https://nekos.life/api/v2/img/fox_girl",
+    "wallpaper": "https://nekos.life/api/v2/img/wallpaper",
+    "awoo": "https://waifu.pics/api/sfw/awoo",
+    "megumin": "https://waifu.pics/api/sfw/megumin",
+    "shinobu": "https://waifu.pics/api/sfw/shinobu",
+    "neko": "https://waifu.pics/api/sfw/neko",
+    "waifu": "https://waifu.pics/api/sfw/waifu"
   },
-  "nsfw": {}
+  "nsfw": {
+    "neko": "https://waifu.pics/api/nsfw/neko",
+    "waifu": "https://waifu.pics/api/nsfw/waifu",
+    "trap": "https://waifu.pics/api/nsfw/trap",
+    "blowjob": "https://waifu.pics/api/nsfw/blowjob"
+  }
 }
