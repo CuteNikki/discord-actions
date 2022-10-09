@@ -1,34 +1,34 @@
 declare class DiscordActionsClient {
   sfw: {
+    bite(): Promise<DiscordActionsClient.RequestResults>;
+    bonk(): Promise<DiscordActionsClient.RequestResults>;
+    bully(): Promise<DiscordActionsClient.RequestResults>;
+    feed(): Promise<DiscordActionsClient.RequestResults>;
     cuddle(): Promise<DiscordActionsClient.RequestResults>;
+    glomp(): Promise<DiscordActionsClient.RequestResults>;
+    highfive(): Promise<DiscordActionsClient.RequestResults>;
+    holdhand(): Promise<DiscordActionsClient.RequestResults>;
     hug(): Promise<DiscordActionsClient.RequestResults>;
-    kiss(): Promise<DiscordActionsClient.RequestResults>;
-    pat(): Promise<DiscordActionsClient.RequestResults>;
-    poke(): Promise<DiscordActionsClient.RequestResults>;
     kick(): Promise<DiscordActionsClient.RequestResults>;
     kill(): Promise<DiscordActionsClient.RequestResults>;
-    slap(): Promise<DiscordActionsClient.RequestResults>;
-    glomp(): Promise<DiscordActionsClient.RequestResults>;
-    bite(): Promise<DiscordActionsClient.RequestResults>;
-    handhold(): Promise<DiscordActionsClient.RequestResults>;
-    highfive(): Promise<DiscordActionsClient.RequestResults>;
-    yeet(): Promise<DiscordActionsClient.RequestResults>;
-    bonk(): Promise<DiscordActionsClient.RequestResults>;
+    kiss(): Promise<DiscordActionsClient.RequestResults>;
     lick(): Promise<DiscordActionsClient.RequestResults>;
-    bully(): Promise<DiscordActionsClient.RequestResults>;
+    pat(): Promise<DiscordActionsClient.RequestResults>;
+    poke(): Promise<DiscordActionsClient.RequestResults>;
+    slap(): Promise<DiscordActionsClient.RequestResults>;
     tickle(): Promise<DiscordActionsClient.RequestResults>;
-    feed(): Promise<DiscordActionsClient.RequestResults>;
+    yeet(): Promise<DiscordActionsClient.RequestResults>;
 
+    blush(): Promise<DiscordActionsClient.RequestResults>;
+    cringe(): Promise<DiscordActionsClient.RequestResults>;
+    cry(): Promise<DiscordActionsClient.RequestResults>;
+    dance(): Promise<DiscordActionsClient.RequestResults>;
+    happy(): Promise<DiscordActionsClient.RequestResults>;
     nom(): Promise<DiscordActionsClient.RequestResults>;
+    smile(): Promise<DiscordActionsClient.RequestResults>;
+    smug(): Promise<DiscordActionsClient.RequestResults>;
     wave(): Promise<DiscordActionsClient.RequestResults>;
     wink(): Promise<DiscordActionsClient.RequestResults>;
-    blush(): Promise<DiscordActionsClient.RequestResults>;
-    smile(): Promise<DiscordActionsClient.RequestResults>;
-    happy(): Promise<DiscordActionsClient.RequestResults>;
-    smug(): Promise<DiscordActionsClient.RequestResults>;
-    cringe(): Promise<DiscordActionsClient.RequestResults>;
-    dance(): Promise<DiscordActionsClient.RequestResults>;
-    cry(): Promise<DiscordActionsClient.RequestResults>;
 
     meow(): Promise<DiscordActionsClient.RequestResults>;
     woof(): Promise<DiscordActionsClient.RequestResults>;
