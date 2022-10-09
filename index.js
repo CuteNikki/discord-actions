@@ -31,9 +31,9 @@ class DiscordActionsClient {
     this.sfw = {};
     this.nsfw = {};
 
-    Object.keys(urls.sfw).forEach(async (url) => {
-      this.sfw[url] = async function (queryParams = '') {
-        let url = new URL(urls.sfw[url]);
+    Object.keys(urls.sfw).forEach(async (endpoint) => {
+      this.sfw[endpoint] = async function (queryParams = '') {
+        let url = new URL(urls.sfw[endpoint]);
         queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
         return await getContent(url.toString());
       };
