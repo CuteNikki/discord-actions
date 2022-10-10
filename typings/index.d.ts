@@ -20,28 +20,39 @@ declare class DiscordActionsClient {
     yeet(): Promise<DiscordActionsClient.RequestResults>;
 
     blush(): Promise<DiscordActionsClient.RequestResults>;
+    confused(): Promise<DiscordActionsClient.RequestResults>;
+    cook(): Promise<DiscordActionsClient.RequestResults>;
     cringe(): Promise<DiscordActionsClient.RequestResults>;
     cry(): Promise<DiscordActionsClient.RequestResults>;
     dance(): Promise<DiscordActionsClient.RequestResults>;
+    draw(): Promise<DiscordActionsClient.RequestResults>;
     happy(): Promise<DiscordActionsClient.RequestResults>;
     nom(): Promise<DiscordActionsClient.RequestResults>;
+    playing(): Promise<DiscordActionsClient.RequestResults>;
+    run(): Promise<DiscordActionsClient.RequestResults>;
+    sad(): Promise<DiscordActionsClient.RequestResults>;
+    sip(): Promise<DiscordActionsClient.RequestResults>;
     smile(): Promise<DiscordActionsClient.RequestResults>;
     smug(): Promise<DiscordActionsClient.RequestResults>;
+    think(): Promise<DiscordActionsClient.RequestResults>;
     wave(): Promise<DiscordActionsClient.RequestResults>;
+    working(): Promise<DiscordActionsClient.RequestResults>;
     wink(): Promise<DiscordActionsClient.RequestResults>;
+    yes(): Promise<DiscordActionsClient.RequestResults>;
 
     meow(): Promise<DiscordActionsClient.RequestResults>;
     woof(): Promise<DiscordActionsClient.RequestResults>;
     goose(): Promise<DiscordActionsClient.RequestResults>;
     why(): Promise<DiscordActionsClient.WhyRequestResults>;
     cat(): Promise<DiscordActionsClient.CatRequestResults>;
-    owoify(msg: string): Promise<DiscordActionsClient.RequestResults>;
+    owoify(msg: string): Promise<DiscordActionsClient.OwoifyRequestResults>;
     eightball(): Promise<DiscordActionsClient.EightballRequestResults>;
     fact(): Promise<DiscordActionsClient.FactRequestResults>;
     spoiler(msg: string): Promise<DiscordActionsClient.RequestResults>;
     gecg(): Promise<DiscordActionsClient.RequestResults>;
     avatar(): Promise<DiscordActionsClient.RequestResults>;
 
+    catboy(): Promise<DiscordActionsClient.CatboyRequestResults>;
     foxgirl(): Promise<DiscordActionsClient.RequestResults>;
     wallpaper(): Promise<DiscordActionsClient.RequestResults>;
     awoo(): Promise<DiscordActionsClient.RequestResults>;
@@ -79,5 +90,12 @@ declare namespace DiscordActionsClient {
   }
   export interface FactRequestResults {
     fact: string;
+  }
+  export interface CatboyRequestResults {
+    url: string;
+    artist?: string;
+    artist_url?: string;
+    source_url?: string;
+    error?: string;
   }
 }
