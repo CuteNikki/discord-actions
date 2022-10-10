@@ -100,16 +100,13 @@ As of now, `owoify` and `eightball` are the only ones with query parameters. It 
 | `ActionsClient.nsfw.ass()`        | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.blowjob()`    | `{ "url": "image url" }`                                                              |
 | `ActionsClient.nsfw.boobs()`      | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
-| `ActionsClient.nsfw.cosplay()`    | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.feet()`       | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.food()`       | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.hentai()`     | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.fourk()` (4k) | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.lewdneko()`   | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.neko()`       | `{ "url": "image url" }`                                                              |
-| `ActionsClient.nsfw.pee()`        | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.pussy()`      | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
-| `ActionsClient.nsfw.swimsuit()`   | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.tentacle()`   | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.thigh()`      | `{ "success": "true" "message": "image url", "color": "#ffffff", "version": "1111" }` |
 | `ActionsClient.nsfw.trap()`       | `{ "url": "image url" }`                                                              |
