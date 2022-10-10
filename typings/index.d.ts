@@ -116,7 +116,7 @@ declare namespace DiscordActionsClient {
   export interface NekobotRequestResult {
     success: string;
     message: string;
-    color: string;
+    color: string | number;
     version: string;
   }
   export interface AnimereactionsRequestResult {
