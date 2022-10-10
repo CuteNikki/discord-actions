@@ -65,7 +65,6 @@ declare class DiscordActionsClient {
     ass(): Promise<DiscordActionsClient.NekobotRequestResult>;
     blowjob(): Promise<DiscordActionsClient.RequestResults>;
     boobs(): Promise<DiscordActionsClient.NekobotRequestResult>;
-    cosplay(): Promise<DiscordActionsClient.NekobotRequestResult>;
     feet(): Promise<DiscordActionsClient.NekobotRequestResult>;
     food(): Promise<DiscordActionsClient.NekobotRequestResult>;
     hentai(): Promise<DiscordActionsClient.NekobotRequestResult>;
@@ -74,7 +73,6 @@ declare class DiscordActionsClient {
     neko(): Promise<DiscordActionsClient.RequestResults>;
     pee(): Promise<DiscordActionsClient.NekobotRequestResult>;
     pussy(): Promise<DiscordActionsClient.NekobotRequestResult>;
-    swimsuit(): Promise<DiscordActionsClient.NekobotRequestResult>;
     tentacle(): Promise<DiscordActionsClient.NekobotRequestResult>;
     thigh(): Promise<DiscordActionsClient.NekobotRequestResult>;
     trap(): Promise<DiscordActionsClient.RequestResults>;
