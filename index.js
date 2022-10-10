@@ -38,6 +38,13 @@ class DiscordActionsClient {
         return await getContent(url.toString());
       };
     });
+    Object.keys(urls.nsfw).forEach(async (endpoint) => {
+      this.nsfw[endpoint] = async function (queryParams = '') {
+        let url = new URL(urls.nsfw[endpoint]);
+        queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
+        return await getContent(url.toString());
+      };
+    });
   }
 }
 
