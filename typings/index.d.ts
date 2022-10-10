@@ -20,7 +20,7 @@ declare class DiscordActionsClient {
     yeet(): Promise<DiscordActionsClient.RequestResults>;
 
     blush(): Promise<DiscordActionsClient.RequestResults>;
-    confused(): Promise<DiscordActionsClient.RequestResults>;
+    confused(): Promise<DiscordActionsClient.AnimereactionsRequestResult>;
     cook(): Promise<DiscordActionsClient.RequestResults>;
     cringe(): Promise<DiscordActionsClient.RequestResults>;
     cry(): Promise<DiscordActionsClient.RequestResults>;
@@ -30,15 +30,15 @@ declare class DiscordActionsClient {
     nom(): Promise<DiscordActionsClient.RequestResults>;
     playing(): Promise<DiscordActionsClient.RequestResults>;
     run(): Promise<DiscordActionsClient.RequestResults>;
-    sad(): Promise<DiscordActionsClient.RequestResults>;
+    sad(): Promise<DiscordActionsClient.AnimereactionsRequestResult>;
     sip(): Promise<DiscordActionsClient.RequestResults>;
     smile(): Promise<DiscordActionsClient.RequestResults>;
     smug(): Promise<DiscordActionsClient.RequestResults>;
-    think(): Promise<DiscordActionsClient.RequestResults>;
+    think(): Promise<DiscordActionsClient.AnimereactionsRequestResult>;
     wave(): Promise<DiscordActionsClient.RequestResults>;
     working(): Promise<DiscordActionsClient.RequestResults>;
     wink(): Promise<DiscordActionsClient.RequestResults>;
-    yes(): Promise<DiscordActionsClient.RequestResults>;
+    yes(): Promise<DiscordActionsClient.AnimereactionsRequestResult>;
 
     meow(): Promise<DiscordActionsClient.RequestResults>;
     woof(): Promise<DiscordActionsClient.RequestResults>;
@@ -118,5 +118,9 @@ declare namespace DiscordActionsClient {
     message: string;
     color: string;
     version: string;
+  }
+  export interface AnimereactionsRequestResult {
+    reaction: string;
+    category: string;
   }
 }
