@@ -65,6 +65,22 @@
     "neko": "https://api.waifu.pics/nsfw/neko",
     "waifu": "https://api.waifu.pics/nsfw/waifu",
     "trap": "https://api.waifu.pics/nsfw/trap",
-    "blowjob": "https://api.waifu.pics/nsfw/blowjob"
+    "blowjob": "https://api.waifu.pics/nsfw/blowjob",
+    "cosplay": "https://nekobot.xyz/api/image?type=cosplay",
+    "hentai": "https://nekobot.xyz/api/image?type=hentai",
+    "ass": "https://nekobot.xyz/api/image?type=ass",
+    "swimsuit": "https://nekobot.xyz/api/image?type=swimsuit",
+    "thigh": "https://nekobot.xyz/api/image?type=thigh",
+    "boobs": "https://nekobot.xyz/api/image?type=boobs",
+    "pussy": "https://nekobot.xyz/api/image?type=pussy",
+    "lewdneko": "https://nekobot.xyz/api/image?type=lewdneko",
+    "feet": "https://nekobot.xyz/api/image?type=feet",
+    "yuri": "https://nekobot.xyz/api/image?type=hyuri",
+    "yaoi": "https://nekobot.xyz/api/image?type=yaoi",
+    "anal": "https://nekobot.xyz/api/image?type=anal",
+    "tentacle": "https://nekobot.xyz/api/image?type=tentacle",
+    "fourk": "https://nekobot.xyz/api/image?type=4k",
+    "pee": "https://nekobot.xyz/api/image?type=pee",
+    "food": "https://nekobot.xyz/api/image?type=food"
   }
 }

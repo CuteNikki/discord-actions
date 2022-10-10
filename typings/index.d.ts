@@ -62,10 +62,25 @@ declare class DiscordActionsClient {
     waifu(): Promise<DiscordActionsClient.RequestResults>;
   };
   nsfw: {
-    neko(): Promise<DiscordActionsClient.RequestResults>;
-    waifu(): Promise<DiscordActionsClient.RequestResults>;
-    trap(): Promise<DiscordActionsClient.RequestResults>;
+    ass(): Promise<DiscordActionsClient.NekobotRequestResult>;
     blowjob(): Promise<DiscordActionsClient.RequestResults>;
+    boobs(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    cosplay(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    feet(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    food(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    hentai(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    fourk(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    lewdneko(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    neko(): Promise<DiscordActionsClient.RequestResults>;
+    pee(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    pussy(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    swimsuit(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    tentacle(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    thigh(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    trap(): Promise<DiscordActionsClient.RequestResults>;
+    waifu(): Promise<DiscordActionsClient.RequestResults>;
+    yaoi(): Promise<DiscordActionsClient.NekobotRequestResult>;
+    yuri(): Promise<DiscordActionsClient.NekobotRequestResult>;
   };
 }
 
@@ -97,5 +112,11 @@ declare namespace DiscordActionsClient {
     artist_url?: string;
     source_url?: string;
     error?: string;
+  }
+  export interface NekobotRequestResult {
+    success: string;
+    message: string;
+    color: string;
+    version: string;
   }
 }
