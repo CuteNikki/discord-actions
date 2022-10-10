@@ -71,7 +71,6 @@ declare class DiscordActionsClient {
     fourk(): Promise<DiscordActionsClient.NekobotRequestResult>;
     lewdneko(): Promise<DiscordActionsClient.NekobotRequestResult>;
     neko(): Promise<DiscordActionsClient.RequestResults>;
-    pee(): Promise<DiscordActionsClient.NekobotRequestResult>;
     pussy(): Promise<DiscordActionsClient.NekobotRequestResult>;
     tentacle(): Promise<DiscordActionsClient.NekobotRequestResult>;
     thigh(): Promise<DiscordActionsClient.NekobotRequestResult>;
