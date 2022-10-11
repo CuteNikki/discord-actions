@@ -45,10 +45,10 @@ declare class DiscordActionsClient {
     goose(): Promise<DiscordActionsClient.RequestResults>;
     why(): Promise<DiscordActionsClient.WhyRequestResults>;
     cat(): Promise<DiscordActionsClient.CatRequestResults>;
-    owoify(msg: string): Promise<DiscordActionsClient.OwoifyRequestResults>;
-    eightball(): Promise<DiscordActionsClient.EightballRequestResults>;
+    owoify(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.OwoifyRequestResults>;
+    eightball(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.EightballRequestResults>;
     fact(): Promise<DiscordActionsClient.FactRequestResults>;
-    spoiler(msg: string): Promise<DiscordActionsClient.RequestResults>;
+    spoiler(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.RequestResults>;
     gecg(): Promise<DiscordActionsClient.RequestResults>;
     avatar(): Promise<DiscordActionsClient.RequestResults>;
 
@@ -94,7 +94,7 @@ declare namespace DiscordActionsClient {
     cat: string;
   }
   export interface OwoifyRequestResults {
-    msg: string;
+    owo: string;
   }
   export interface EightballRequestResults {
     response: string;
@@ -119,5 +119,8 @@ declare namespace DiscordActionsClient {
   export interface AnimereactionsRequestResult {
     reaction: string;
     category: string;
+  }
+  export interface RequestTextInput {
+    text: string;
   }
 }

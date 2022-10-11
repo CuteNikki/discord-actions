@@ -75,7 +75,7 @@ Very small install size with no external dependencies.
 | `ActionsClient.sfw.goose()`                  | `{ "url": "image url" }`                                                                                               |
 | `ActionsClient.sfw.why()`                    | `{ "why": "text" }`                                                                                                    |
 | `ActionsClient.sfw.cat()`                    | `{ "cat": "unicode cat" }`                                                                                             |
-| `ActionsClient.sfw.owoify({ text: 'msg' })`  | `{ "msg": "owoified text" }`                                                                                           |
+| `ActionsClient.sfw.owoify({ text: 'msg' })`  | `{ "owo": "owoified text" }`                                                                                           |
 | `ActionsClient.sfw.eightball()`              | `{ "response": "text", "url": "image url" }`                                                                           |
 | `ActionsClient.sfw.fact()`                   | `{ "fact": "text" }`                                                                                                   |
 | `ActionsClient.sfw.spoiler({ text: 'msg' })` | `{ "url": "image url" }`                                                                                               |
@@ -90,7 +90,7 @@ Very small install size with no external dependencies.
 | `ActionsClient.sfw.neko()`                   | `{ "url": "image url" }`                                                                                               |
 | `ActionsClient.sfw.waifu()`                  | `{ "url": "image url" }`                                                                                               |
 
-As of now, `owoify` and `eightball` are the only ones with query parameters. It requires an object containing the parameter, and the key should be the value. In this case, the key is `text` and the value is whatever you want owoified. There is an example in this README.
+As of now, `owoify`, `eightball` and `spoiler` are the only ones with query parameters. It requires an object containing the parameter, and the key should be the value. In this case, the key is `text` and the value is whatever you want owoified. There is an example in this README.
 `{text: 'Some text you want weebified.}`
 
 ### NSFW GIFs
@@ -221,7 +221,7 @@ client.on('messageCreate', async (message) => {
       {
         const userInput = args.join(' ');
         const text = await actions.sfw.owoify({ text: userInput });
-        message.reply(`OwOified Text:\n${text}`);
+        message.reply(`OwOified Text:\n${text.owo}`);
       }
       break;
   }
