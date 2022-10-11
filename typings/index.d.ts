@@ -48,7 +48,7 @@ declare class DiscordActionsClient {
     owoify(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.OwoifyRequestResults>;
     eightball(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.EightballRequestResults>;
     fact(): Promise<DiscordActionsClient.FactRequestResults>;
-    spoiler(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.RequestResults>;
+    spoiler(options: DiscordActionsClient.RequestTextInput): Promise<DiscordActionsClient.OwoifyRequestResults>;
     gecg(): Promise<DiscordActionsClient.RequestResults>;
     avatar(): Promise<DiscordActionsClient.RequestResults>;
 
