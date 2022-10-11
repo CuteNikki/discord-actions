@@ -31,20 +31,20 @@ class DiscordActionsClient {
     this.sfw = {};
     this.nsfw = {};
 
-    Object.keys(urls.sfw).forEach(async (endpoint) => {
+    for (const endpoint of Object.keys(urls.sfw)) {
       this.sfw[endpoint] = async function (queryParams = '') {
         let url = new URL(urls.sfw[endpoint]);
         queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
         return await getContent(url.toString());
       };
-    });
-    Object.keys(urls.nsfw).forEach(async (endpoint) => {
+    }
+    for (const endpoint of Object.keys(urls.nsfw)) {
       this.nsfw[endpoint] = async function (queryParams = '') {
         let url = new URL(urls.nsfw[endpoint]);
         queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
         return await getContent(url.toString());
       };
-    });
+    }
   }
 }
 
