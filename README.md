@@ -78,7 +78,7 @@ Very small install size with no external dependencies.
 | `ActionsClient.sfw.owoify({ text: 'msg' })`  | `{ "owo": "owoified text" }`                                                                                           |
 | `ActionsClient.sfw.eightball()`              | `{ "response": "text", "url": "image url" }`                                                                           |
 | `ActionsClient.sfw.fact()`                   | `{ "fact": "text" }`                                                                                                   |
-| `ActionsClient.sfw.spoiler({ text: 'msg' })` | `{ "owo": "||s||||p||||o||||i||||l||||o||||r||" }`                                                                     |
+| `ActionsClient.sfw.spoiler({ text: 'msg' })` | `{ "owo": "spoiler text" }`                                                                     |
 | `ActionsClient.sfw.gecg()`                   | `{ "url": "image url" }`                                                                                               |
 | `ActionsClient.sfw.avatar()`                 | `{ "url": "image url" }`                                                                                               |
 | `ActionsClient.sfw.catboy()`                 | `{ "url": "image url", "artist": "artist name", "artist_url": "artist url", "source_url": "source url", "error": "" }` |
