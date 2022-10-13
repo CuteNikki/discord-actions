@@ -57,7 +57,7 @@ declare class DiscordActionsClient {
     wallpaper(): Promise<DiscordActionsClient.RequestResults>;
     awoo(): Promise<DiscordActionsClient.RequestResults>;
     megumin(): Promise<DiscordActionsClient.RequestResults>;
-    shinonu(): Promise<DiscordActionsClient.RequestResults>;
+    shinobu(): Promise<DiscordActionsClient.RequestResults>;
     neko(): Promise<DiscordActionsClient.RequestResults>;
     waifu(): Promise<DiscordActionsClient.RequestResults>;
   };
