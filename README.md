@@ -20,14 +20,14 @@ Very small install size with no external dependencies.
 
 ### SFW User Action GIFs
 
-| Function                       | Request Results          |
-| ------------------------------ | ------------------------ |
-| `ActionsClient.sfw.bite()`     | `{ "url": "image url" }` |
-| `ActionsClient.sfw.bonk()`     | `{ "url": "image url" }` |
-| `ActionsClient.sfw.bully()`    | `{ "url": "image url" }` |
-| `ActionsClient.sfw.feed()`     | `{ "url": "image url" }` |
-| `ActionsClient.sfw.cuddle()`   | `{ "url": "image url" }` |
-| `ActionsClient.sfw.glomp()`    | `{ "url": "image url" }` |
+| Function                       | Request Results          | 
+| ------------------------------ | ------------------------ | 
+| `ActionsClient.sfw.bite()`     | `{ "url": "image url" }` | 
+| `ActionsClient.sfw.bonk()`     | `{ "url": "image url" }` | 
+| `ActionsClient.sfw.bully()`    | `{ "url": "image url" }` | 
+| `ActionsClient.sfw.feed()`     | `{ "url": "image url" }` | 
+| `ActionsClient.sfw.cuddle()`   | `{ "url": "image url" }` | 
+| `ActionsClient.sfw.glomp()`    | `{ "url": "image url" }` | 
 | `ActionsClient.sfw.highfive()` | `{ "url": "image url" }` |
 | `ActionsClient.sfw.holdhand()` | `{ "url": "image url" }` |
 | `ActionsClient.sfw.hug()`      | `{ "url": "image url" }` |
@@ -90,8 +90,8 @@ Very small install size with no external dependencies.
 | `ActionsClient.sfw.neko()`                   | `{ "url": "image url" }`                                                                                               |
 | `ActionsClient.sfw.waifu()`                  | `{ "url": "image url" }`                                                                                               |
 
-As of now, `owoify`, `eightball` and `spoiler` are the only ones with query parameters. It requires an object containing the parameter, and the key should be the value. In this case, the key is `text` and the value is whatever you want owoified. There is an example in this README.
-`{text: 'Some text you want weebified.}`
+As of now, `owoify`, `eightball` and `spoiler` are the only ones with query parameters. It requires an object containing the parameter, and the key should be the value. In this case, the key is `text` and the value is whatever you want owoified. There is an example in this README (owoify example).
+`{text: 'Some text you want weebified.'}`
 
 ### NSFW GIFs
 
