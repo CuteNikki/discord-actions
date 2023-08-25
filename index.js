@@ -26,26 +26,10 @@ function getContent(url) {
   });
 }
 
-class DiscordActionsClient {
-  constructor() {
-    this.sfw = {};
-    this.nsfw = {};
-
-    for (const endpoint of Object.keys(urls.sfw)) {
-      this.sfw[endpoint] = async function (queryParams = '') {
-        let url = new URL(urls.sfw[endpoint]);
-        queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
-        return await getContent(url.toString());
-      };
-    }
-    for (const endpoint of Object.keys(urls.nsfw)) {
-      this.nsfw[endpoint] = async function (queryParams = '') {
-        let url = new URL(urls.nsfw[endpoint]);
-        queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
-        return await getContent(url.toString());
-      };
-    }
-  }
+for (const endpoint of Object.keys(urls)) {
+  this[endpoint] = async function (queryParams = '') {
+    let url = new URL(urls[endpoint]);
+    queryParams !== '' ? (url.search = new URLSearchParams(queryParams)) : '';
+    return await getContent(url.toString());
+  };
 }
-
-module.exports = DiscordActionsClient;

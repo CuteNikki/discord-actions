@@ -1,30 +1,30 @@
 {
   "name": "discord-actions",
-  "version": "1.2.12",
+  "version": "2.3.13",
   "main": "index.js",
-  "types": "./typings/index.d.ts",
-  "author": "Verschlafene",
+  "types": "index.d.ts",
+  "author": "BlushingNikki",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Verschlafene/discord-actions.git"
+    "url": "git+https://github.com/BlushingNikki/discord-actions.git"
   },
   "bugs": {
-    "url": "https://github.com/Verschlafene/discord-actions/issues"
+    "url": "https://github.com/BlushingNikki/discord-actions/issues"
   },
-  "homepage": "https://github.com/Verschlafene/discord-actions#readme",
+  "homepage": "https://github.com/BlushingNikki/discord-actions#readme",
   "keywords": [
-    "anime",
+    "api",
+    "wrapper",
     "discord",
     "discord.js",
+    "anime",
     "actions",
     "reactions",
-    "hug",
+    "reaction",
     "cuddle",
+    "hug",
     "kiss",
-    "bonk",
-    "anime",
-    "gif",
-    "api"
+    "gif"
   ]
 }
