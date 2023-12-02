@@ -1,10 +1,13 @@
+# Discord-Actions
+
+An API wrapper for various APIs. It fetches image urls, can weebify your text and much more.
+
 [![npm](https://img.shields.io/npm/v/discord-actions.svg)](https://www.npmjs.com/package/discord-actions)
 [![npm](https://img.shields.io/npm/dt/discord-actions.svg?maxAge=3600)](https://www.npmjs.com/package/discord-actions)
 [![install size](https://packagephobia.now.sh/badge?p=discord-actions)](https://packagephobia.now.sh/result?p=discord-actions)
 
 [![NPM](https://nodei.co/npm/discord-actions.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/discord-actions/)
 
-<br></br>
 
 # 🛈 What's new?
 
@@ -24,10 +27,6 @@ hug();
 ```
 
 <br></br>
-
-# Discord-Actions
-
-Basically an API wrapper for various APIs. It fetches image urls, can weebify your text and much more.
 
 This package is <b>very small in install size</b> and has <b>no external dependencies</b>.
 
